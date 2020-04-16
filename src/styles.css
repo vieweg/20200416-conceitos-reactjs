@@ -10,12 +10,23 @@ body {
 
 div {
   width: 100%;
-  margin: 20px;
+  max-width: 350px;
+  margin: 20px auto;
+  text-align: center;
 }
-
+div h1 {
+  font-size: 24px;
+  padding: 25px 0;
+}
+div ul {
+  border: 1px solid #cacaca;
+  border-radius: 15px;
+  padding: 10px;
+}
 div li {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 div li + li {
